@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        #circle {
+            background-color: red;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .square {
+            background-color: green;
+            height: 150px;
+            width: 150px;
+            display: inline-block;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="circle"></div>
+
+    <div class="square"></div>
+
+    <div class="square"></div>
+
+
+
+    <script type="text/javascript">
+
+        $("#circle").click(function () {
+            alert("Circle was clicked");
+        });
+
+        $(".square").click(function () {
+            alert("Square was clicked");
+        });
+
+    </script>
+
+</html>
