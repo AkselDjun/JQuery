@@ -1,0 +1,7 @@
+https://jqueryui.com/draggable/
+
+https://iamceege.github.io/tooltipster/
+
+https://dimsemenov.com/plugins/magnific-popup/
+
+https://twitter.github.io/typeahead.js/
